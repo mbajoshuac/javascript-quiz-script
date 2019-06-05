@@ -1,0 +1,58 @@
+body {
+    background: grey;
+    font-family: 'arial', sans-serif;
+    font-size: 14px;
+}
+
+#container{
+  width: 60%;
+  margin: 20px auto;
+  overflow: auto; 
+  padding: 25px;
+  background: white;
+  box-shadow: 2px 3px 2px 3px;
+}
+
+header{
+  text-align: center;
+  text-shadow: 1px auto;
+  border-bottom: black dashed 1px;
+
+}
+
+header h1{
+  margin: 0px;
+  padding: 0px;
+}
+
+header p{
+  padding: 0px;
+  margin-top: 5px;
+}
+
+footer{
+  text-align: center;
+  border-top: red dashed 2px;
+
+}
+
+input[type="submit"] {
+    color: white;
+    padding: 10px;
+    border: 2px;
+    border-color: black;
+    box-shadow: 2px;
+    background: green;
+    cursor: pointer;
+}
+
+#results {
+  color: white;
+  background: green;
+  margin: 10px;
+  padding: 10px;
+}
+ #results span{
+   font-weight: bold;
+   
+ }
